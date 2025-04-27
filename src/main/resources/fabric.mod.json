@@ -8,10 +8,10 @@
 		"Me!"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/eric-k-chu/yuen-mmo",
+		"sources": "https://github.com/eric-k-chu/yuen-mmo"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/yuen-mmo/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"com.yuen.mmo.YuenMMODataGenerator"
+		],
+		"client": [
+			"com.yuen.mmo.YuenMMOClient"
 		]
 	},
 	"mixins": [
